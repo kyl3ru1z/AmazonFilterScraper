@@ -3,7 +3,7 @@ Uses Beautiful Soup to scrape Amazon with specified filters. In the program you 
 
 # How to use
 - Download the chrome driver for selenium. https://sites.google.com/chromium.org/driver/
-- On line 22 in the program change the path of the chrome driver to where you have it in your system.
+- On line 23 in the program change the path of the chrome driver to where you have it in your system.
 
 # What I Learned
 - extracting information from mutliple pages
