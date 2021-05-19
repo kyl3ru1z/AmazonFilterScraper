@@ -18,7 +18,8 @@ def extractItemInfo(searchItem, maxPages, minPrice, maxPrice, minRating, minNumR
     csv_writer = csv.writer(csv_file)
     csv_writer.writerow(['description', 'rating', 'number of reviews', 'price', 'link'])
     html_file.write("""<html><head></head><body>""")
-
+    
+    # change the path the chrome driver to where you have it in your system
     driver = webdriver.Chrome('C:\\Users\Kyle Ruiz\\Documents\Selenium Driver\\chromedriver.exe')
 
     for page in range(1, maxPages):
