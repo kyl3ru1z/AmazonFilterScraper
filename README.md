@@ -11,3 +11,6 @@ Uses Beautiful Soup to scrape Amazon with specified filters. In the program you 
 - creating a GUI w/ Tkinter 
 - exporting data to a csv file
 - exporting data into a HTML file 
+
+# Screenshot
+<img src="screenshots/amazon_filter.PNG" height="300">
